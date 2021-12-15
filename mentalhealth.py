@@ -11,10 +11,6 @@ consumersecret = credential.CONSUMER_SECRET
 access = credential.ACCESS_TOKEN
 accesssecret = credential.ACCESS_SECRET
 
-print(consumerkey)
-print(access)
-print(accesssecret)
-
 file_name = 'last_seen_id.txt'
 
 # auth
