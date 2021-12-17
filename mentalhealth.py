@@ -19,7 +19,7 @@ client = tweepy.Client(bearer_token=bearer,
                         access_token=access, access_token_secret=accesssecret)
 
 # Query with different keyword
-query = '(self harm OR bunuh diri OR insomnia OR insecure OR cemas OR depresi OR stress OR burn out OR toxic OR bipolar OR gaslighting OR trauma OR hopeless OR kesepian OR abusive OR hate OR playing victim) -is:retweet lang:id'
+query = '(self harm OR bunuh diri OR insomnia OR insecure OR cemas OR depresi OR stress OR burn out OR toxic OR bipolar OR gaslighting OR trauma OR hopeless OR kesepian OR abusive OR playing victim) -is:retweet lang:id'
 
 def retrieve_last_seen_id(file_name):
     f_read = open(file_name, 'r')
